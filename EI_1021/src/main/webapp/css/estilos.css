@@ -3,3 +3,31 @@ body {
     background-color: #f2f2f2;
     text-align: center;
 }
+
+.contenedor {
+	display: grid;
+	place-items: center;
+	border: 2px solid red; 
+	padding: 20px;
+}
+
+.contenedor ul { /* Los elementos de la lista alineados a la izq */
+    text-align: left;
+}
+
+.formulario{
+	display: grid;
+	place-items: center;
+	border: 2px solid green; 
+	padding: 20px;
+}
+
+h1 {
+	color: green;
+	font-family: Rockwell;
+}
+
+img {
+  width: 80vw;  /* 80% del ancho de la pantalla */
+  height: auto; /* mantiene proporción */
+}
