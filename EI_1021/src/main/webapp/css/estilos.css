@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    text-align: center;
+    text-align: center;s
 }
 
 .contenedor {
@@ -16,12 +16,10 @@ body {
 }
 
 .formulario{
-	display: grid;
-	place-items: center;
+	width: 40vw; 
 	border: 2px solid green; 
-	padding: 20px;
-}
-
+	padding: 8px; 
+} 
 h1 {
 	color: green;
 	font-family: Rockwell;
@@ -30,4 +28,32 @@ h1 {
 img {
   width: 80vw;  /* 80% del ancho de la pantalla */
   height: auto; /* mantiene proporción */
+}
+
+.col1{
+	display: inline-block;
+	background-color: lightgreen;
+	text-align: right;
+	font-weight: bold;
+	width: 230px;
+}
+.col2{
+	display: inline-block;
+	background-color:lightgreen;
+	padding-left: 30px;
+	text-align: right;	
+}
+
+.ip{
+	text-align: left;
+}
+.h{
+	width: 45px;
+}
+.boton{
+	display: flex;
+	align-items: center;
+	gap: 230px;
+	margin-bottom: -15px;
+	margin-left: 35%
 }

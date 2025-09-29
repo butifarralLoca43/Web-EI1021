@@ -1,4 +1,3 @@
-<html>
 <head>
 <meta charset="UTF-8">
 <title>Mi Proyecto Web Dinámico</title>
@@ -11,10 +10,51 @@
 		<h1>Reserva una sesión</h1>
 		<div class="formulario">
 		<form>
-			<label for="fname">First name:</label><br>
-			<input type="text" id="fname" name="fname"><br>
-			<label for="lname">Last name:</label><br>
-			<input type="text" id="lname" name="lname">
+		<table>
+			<tr>
+			<th class="col1"> <label >Cuenta:</label> </th>
+			<th class="ip"> <input type="radio" id="estandar" name="cuenta" value="Estándar"> <label> Estándar</label> 
+				 <input type="radio" id="premium" name="cuenta" value="Premium"> <label> Premium</label> </th>
+			</tr>
+			
+			<tr>
+			<th class="col1"> <label  for="cod">Código de usuario:</label> </th>
+			<th class="ip"> <input type="text" id="cod" name="cod"> </th>
+			</tr>
+			
+			<tr>
+			<th class="col1"><label for="dia" >Día:</label> </th>
+				<th class="ip"> <select id="dia" name="dia">
+					 <option value="eud">-- Elige un día --</option>
+  					 <option value="lunes">Lunes</option>
+  					 <option value="martes">Martes</option>
+  					 <option value="miercoles">Miercoles</option>
+  					 <option value="jueves">Jueves</option>
+  					 <option value="viernes">Viernes</option> </select> </th>
+  			
+  				
+  			<th> <label class="col2" for="hora">Hora:</label> </th>
+			<th> <input class="h" type="text" id="hora" name="cod"> </th>
+			</tr>
+			
+			<tr>
+			<th class="col1"> <label for="actividad" >Actividad:</label> </th>
+				<th> <select id="actividad" name="actividad">
+					 <option value="sua">-- Selecciona una actividad --</option>
+					 <option value="Yoga">Yoga</option>
+					 <option value="Ironfit">Ironfit</option>
+					 <option value="Taichí">Taichí</option> </select></th>
+			</tr>
+			
+			
+				
+			
+			
+		</table>
+			<div class="boton">
+				<input type="submit" value="Envía"> 
+				<input type="reset" value="Borra"> 
+			</div>
 		</form>
 		</div>
 		
